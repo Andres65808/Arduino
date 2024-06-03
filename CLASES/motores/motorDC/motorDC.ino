@@ -1,11 +1,11 @@
 int btn1; int btn2; int pot;
 void setup() {
-pinMode(2, INPUT);
-pinMode(3, INPUT);
-pinMode(A0, INPUT);
-pinMode(4, OUTPUT);
-pinMode(5, OUTPUT);
-pinMode(6, OUTPUT);
+pinMode(2, INPUT); //btn1
+pinMode(3, INPUT); //btn2
+pinMode(A0, INPUT); //pot
+pinMode(4, OUTPUT); //salida1
+pinMode(5, OUTPUT); //salida2
+pinMode(6, OUTPUT); //velocidad
 }
 void loop()
 {
