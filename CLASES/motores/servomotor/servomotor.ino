@@ -1,15 +1,12 @@
 #include <Servo.h>
-Servo servo1 ;
-int retardo;
-int pinservo =2;
-int pulsomin = 500;
-int pulsomax = 2500;
+Servo servo1;
+int retardo;
 int sw1, sw2;
 int pot; 
 int angulo;
 void setup()
 {
-servo1.attach(pinservo, pulsomin,pulsomax);
+servo1.attach(2, 500, 2500);
 pinMode(13,INPUT);
 pinMode(12,INPUT);
 pinMode(A0,INPUT);
